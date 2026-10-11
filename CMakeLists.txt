@@ -50,6 +50,7 @@ target_sources(
     src/sources/threshold_toggle_source.cpp
     src/filters/heartbeat_camera_shake.cpp
     src/filters/heartbeat_glow.cpp
+    src/filters/heartbeat_zone_tint.cpp
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE src)
